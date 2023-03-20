@@ -1,0 +1,355 @@
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'S-CoreDream-6Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-6Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'S-CoreDream-4Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+body {
+    font-family: 'S-CoreDream-4Regular';
+    min-width: 1320px;
+}
+
+
+/* 헤더 */
+.nav {
+    width: 1320px;
+    margin: 20px auto;
+    position:relative;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+}
+
+
+header ul {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.d_left {
+    position: absolute;
+    left: 12%;
+
+}
+
+.d_left a {
+    display: block;
+    margin-right: 55px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.d_left a:hover {
+    color: #013723;
+    font-weight: bold;
+}
+
+.d_right {
+    position: absolute;
+    right: 0;
+}
+
+.d_right a {
+    display: block;
+    margin-right: 35px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.d_right a:hover {
+    color: #013723;
+    font-weight: bold;
+}
+
+.d_right li img:hover {
+    opacity: 0.5;
+}
+/* 헤더 끝 */
+
+h1 {
+    text-align: center;
+    font-weight: 500;
+    margin: 70px 0;
+}
+/* 배너 */
+.banner img {
+    width: 100%;
+
+}
+
+/* 메인 */
+.main1 {
+    background: url(../images/bg5.png) no-repeat top left;
+    height: 1464px;
+    width: 100%;
+}
+
+.main_in1 {
+    width: 1200px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.main_in2 {
+    width: 1200px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 350px;
+    text-align: right;
+    box-sizing: border-box;
+}
+
+.main1 p {
+    font-size: 27px;
+    width: 600px;
+    font-weight: 200;
+    line-height: 50px;
+}
+
+span{font-size: 38px;}
+
+.main1 img {
+    width: 589px;
+    height: 417px;
+}
+
+/* 슬로건 */
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    width: 1320px;
+    text-align: center;
+    font-size: 40px;
+    margin: auto;
+    font-weight: 200;
+}
+
+
+.slogan {
+    width: 1320px;
+    margin: 80px auto;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+.box1,
+.box2 {
+    border: solid 3px #0a2f09;
+    padding: 30px;
+    text-align: center;
+    width: 300px;
+    height: 350px;
+}
+
+.box1 span,
+.box2 span {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 30px;
+    text-align: center;
+    color: 
+    #425347;
+}
+
+ul.box1 li,
+ul.box2 li {
+    padding: 11px 0;
+}
+
+
+.campaign {
+    background-color: #ecf0e2;
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+.cam {
+    width: 1000px;
+    margin: auto;
+    padding: 80px 0;
+}
+
+h3 {
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 200;
+    text-align: center;
+ padding-bottom: 30px;
+}
+
+
+.cam div {
+    margin-top: 50px;
+    border: 1px solid #000;
+    border-radius: 45px 45px;
+    background: white;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.center{text-align: center;
+font-size: 22px;}
+
+.cam img{width: 300px;
+height: 300px;
+padding: 30px;}
+
+.cam1 img, .cam3 img{
+    padding-right: 210px;
+}
+
+.cam div p {line-height: 30px;}
+
+.turn{transform: rotate(90deg);
+font-size: 35px;
+position: absolute; left: 350px;
+font-family: 'Playfair Display', serif;
+font-weight: 200;
+}
+
+.cam2 img{
+    padding-left: 210px;
+}
+
+.turn1{transform: rotate(-90deg);
+    font-size: 35px;
+position: absolute; right: 396px;
+font-family: 'Playfair Display', serif;
+font-weight: 200;}
+
+
+.turn2{transform: rotate(90deg);
+    font-size: 35px;
+    position: absolute; left: 350px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 200;}
+    
+    .wi{width: 300px;}
+
+
+/* 푸터 */
+footer {
+    background: url(../images/footer.png) no-repeat center top;
+    height: 386px;
+    width: 100%;
+}
+
+.footer_inner {
+    padding-top: 40px;
+    width: 1200px;
+    margin: auto;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'S-CoreDream-3Light';
+}
+
+
+.footer_inner p {
+    line-height: 35px;
+}
+
+.link li {
+    padding-bottom: 15px;
+}
+
+.link>li>a:hover {
+    border-bottom: 1px solid black;
+}
+
+.join2 {
+    text-align: center;
+}
+
+.footer_inner .join2 a {
+    color: white;
+    width: 50px;
+    padding: 5px;
+    border-radius: 30px;
+    display: inline-block;
+    background-color: #013723;
+}
+
+.footer_inner .join2 a:hover {
+    background-color: #386a3f;
+    color: white;
+}
+
+.sns img {
+    display: block;
+    margin: auto;
+    width: 46px;
+    height: 46px;
+    padding-top: 15px;
+}
+
+.sns img:hover {
+    opacity: 0.5;
+}
+
+
+.topb{
+    position:fixed; 
+    bottom:50px; 
+    right:50px; 
+    display:none;
+  }

@@ -235,4 +235,5 @@ footer {
     bottom:50px; 
     right:50px; 
     display:none;
+    z-index: 99;
   }

@@ -151,7 +151,7 @@ h3 span {
     border-radius: 30px;
     display: inline-block;
     text-align: center;
-     border: #fff 2px solid;
+    border: #fff 2px solid;
 }
 
 .best p a:hover {
@@ -362,5 +362,5 @@ footer {
     bottom:50px; 
     right:50px; 
     display:none;
-    z-index:99;
+    z-index: 99;
   }

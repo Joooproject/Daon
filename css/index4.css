@@ -111,6 +111,7 @@ header ul {
 .event {
     width: 1320px;
     margin: 30px auto;
+    overflow: hidden;
 }
 
 .event ul {

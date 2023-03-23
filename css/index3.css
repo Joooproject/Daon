@@ -109,6 +109,7 @@ h1 {
     border: 2px solid #013723;
     width: 1320px;
     align-items: center;
+    box-sizing: border-box;
 
 }
 

@@ -113,7 +113,7 @@ h1 {
 
 /* 메인 */
 .main1 {
-    background: url(../images/bg5.png) no-repeat top left;
+    background: url(../images/bg5.png) no-repeat 50% 0;
     height: 1464px;
     width: 100%;
 }

@@ -214,6 +214,9 @@ overflow: hidden;}
     margin-bottom: 20px;
 }
 
+span{font-family: '나눔고딕';
+    font-size: 16px;}
+    
 /* 푸터 */
 footer {
     background: url(../images/footer.png) no-repeat center top;

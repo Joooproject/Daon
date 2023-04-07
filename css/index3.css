@@ -71,13 +71,13 @@ header ul {
 .d_left a {
     display: block;
     margin-right: 55px;
-    font-weight: 500;
+    font-weight: bold;
     font-size: 18px;
 }
 
 .d_left a:hover {
-    color: #013723;
-    font-weight: bold;
+    color:#7ea21e;
+    font-weight: 500;
 }
 
 .d_right {
@@ -93,8 +93,8 @@ header ul {
 }
 
 .d_right a:hover {
-    color: #013723;
-    font-weight: bold;
+    color: #7ea21e;
+    font-weight: 500;
 }
 
 .d_right li img:hover {
@@ -169,8 +169,8 @@ h1 {
 .tabcontent>div> ul> li> a{display: block;
 width: 379px;
 height: 376px;
--webkit-border-radius: 50%;
-border-radius: 50%;
+-webkit-border-radius: 500px;
+border-radius: 500px;
 overflow: hidden;}
 
 

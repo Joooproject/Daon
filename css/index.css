@@ -73,8 +73,8 @@ header ul {
 }
 
 .d_left a:hover {
-    color: #013723;
-    font-weight: bold;
+    color:#7ea21e;
+    font-weight: 500;
 }
 
 .d_right {
@@ -90,8 +90,8 @@ header ul {
 }
 
 .d_right a:hover {
-    color: #013723;
-    font-weight: bold;
+    color:#7ea21e;
+    font-weight: 500;
 }
 
 .d_right li img:hover {
@@ -125,9 +125,10 @@ header ul {
 }
 
 h1 {
-    font-family: 'Playfair Display', serif;
+    font-family:'Playfair Display', serif;
     text-align: center;
     margin: 50px 0;
+    font-weight: 200;
     font-size: 40px;
 }
 

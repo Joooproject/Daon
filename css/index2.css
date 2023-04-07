@@ -74,8 +74,8 @@ header ul {
 }
 
 .d_left a:hover {
-    color: #013723;
-    font-weight: bold;
+    color:#7ea21e;
+    font-weight: 500;
 }
 
 .d_right {
@@ -91,8 +91,8 @@ header ul {
 }
 
 .d_right a:hover {
-    color: #013723;
-    font-weight: bold;
+    color:#7ea21e;
+    font-weight: 500;
 }
 
 .d_right li img:hover {
@@ -100,16 +100,24 @@ header ul {
 }
 /* 헤더 끝 */
 
-h1 {
+h1 { font-family: 'Playfair Display', serif;
     text-align: center;
     font-weight: 500;
     margin: 70px 0;
+    font-size: 38px;
 }
+
+.brand {font-family:'S-CoreDream-4Regular';
+    text-align: center;
+    font-weight: 500;
+    margin: 70px 0;}
+
 /* 배너 */
 .banner img {
     width: 100%;
 
 }
+
 
 /* 메인 */
 .main1 {
@@ -147,7 +155,7 @@ h1 {
 }
 
 .main1 p {
-    font-size: 27px;
+    font-size: 23px;
     width: 600px;
     font-weight: 200;
     line-height: 50px;
